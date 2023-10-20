@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * free_list - frees a list
+ * free_list - func frees a list
  * @head: head of the linked list.
- * Return: no return.
+ * Return: no return value.
  */
 
 void free_list(list_t *head)

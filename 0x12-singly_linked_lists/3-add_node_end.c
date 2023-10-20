@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * add_node_end - adds a new node at the end
+ * add_node_end - func to add a new node at the end
  * of a list_t list.
- * @head: head of the linked list.
- * @str: string to store in the list.
- * Return: address of the head.
+ * @head: head of linked list.
+ * @str: string to store in list.
+ * Return: address of head.
  */
 
 list_t *add_node_end(list_t **head, const char *str)
